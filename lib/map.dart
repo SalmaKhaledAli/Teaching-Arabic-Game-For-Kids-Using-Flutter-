@@ -20,7 +20,7 @@ class _MapState extends State<Map>{
                 image: AssetImage("assets/2693.jpg"), fit: BoxFit.cover)),
 
         child:Row(
-      children: <Widget>[
+        children: <Widget>[
              Container(
                  alignment: Alignment.bottomCenter,
                  padding: EdgeInsets.fromLTRB(40,0,0,60),
@@ -156,28 +156,8 @@ class _MapState extends State<Map>{
             ),
           ],
         ),
-        /**
-        Container(
-          padding: EdgeInsets.fromLTRB(0,0,0,0),
-          alignment: Alignment.topRight,
-          child: IconButton(
-            icon: Icon(Icons.arrow_back),
-            color: Colors.white,
-            onPressed: () {
-            },
-          ),
-        ),
-        **/
-
         ],),
         ),
-
     );
-
-
-
-
-
-
   }
 }

@@ -23,8 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
+  rflutter_alert: ^1.0.3
+  animated_text_kit: ^3.1.0
+  pimp_my_button: ^1.0.0
+  animated_background: ^1.0.5
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
@@ -45,6 +47,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+    - family: Dongol
+      fonts:
+        - asset: assets\c.otf
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -59,6 +65,17 @@ flutter:
     - assets/FOREST SOUND EFFECT IN HIGH QUALITY.mp3
     - assets/35683-trophy.json
     - assets/wood1.jpg
+    - assets/631.jpg
+    - assets/t.png
+    - assets/elephant.png
+    - assets/BG.png
+    - assets/plane.png
+    - assets/pen.png
+    - assets/present.png
+    - assets/orange.png
+    - assets/bee.png
+    - assets/planet.png
+    - assets/x.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
